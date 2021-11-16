@@ -2,25 +2,25 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
+    <meta
+      name="viewport"
       content="width=device-width,
-        user-scalable=no,
-        initial-scale=1.0,
-        maximum-scale=1.0,
-        minimum-scale=1.0"
-      >
+      user-scalable=no,
+      initial-scale=1.0,
+      maximum-scale=1.0,
+      minimum-scale=1.0"
+    >
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HTML Form</title>
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <script type="text/javascript" src="./main.js"></script>
     <form
       action="https://mate-academy-form-lesson.herokuapp.com/create-application"
       method="post"
       onsubmit="onSubmit()"
     >
-      <fieldset class="form_part">
+      <fieldset class="formPart">
         <legend class="input">
           Personal information
         </legend>
@@ -61,7 +61,7 @@
             type="date"
             id="date"
             required
-        >
+          >
         </label>
         <label for="agreement" class="input">
           I accept the term of the agreement
@@ -72,7 +72,7 @@
           >
         </label>
       </fieldset>
-      <fieldset class="form_part">
+      <fieldset class="formPart">
         <legend class="input">
           Registration
         </legend>
@@ -92,26 +92,26 @@
           >
         </label>
       </fieldset>
-      <fieldset class="form_part">
+      <fieldset class="formPart">
         <legend class="input">
           An interesting fact about you!
         </legend>
-        <div class="input cats_radio">
+        <span class="input catsRadio">
           Do you love cats?
-        </div>
-        <label for="cats_yes" class="input cats_radio">
+        </span>
+        <label for="catsYes" class="input catsRadio">
           <input
             type="radio"
-            id="cats_yes"
+            id="catsYes"
             name="cats"
             value="yes"
           >
           Yes
         </label>
-        <label for="cats_no" class="input cats_radio">
+        <label for="catsNo" class="input catsRadio">
           <input
             type="radio"
-            id="cats_no"
+            id="catsNo"
             name="cats"
             value="no"
           >
@@ -124,23 +124,30 @@
             id="color"
           >
         </label>
-        <label for="bed_time" class="input">
+        <label for="bedTime" class="input">
           What time do you go to bed?
           <input
             type="time"
-            id="bed_time"
+            id="bedTime"
             step="2"
           >
         </label>
         <label for="cars" class="input">
           What are your favorite brand of cars?
-          <select name="cars"
+          <select
+            name="cars"
             id="cars"
             multiple
           >
-            <option value="BMW">BMW</option>
-            <option value="Audi">Audi</option>
-            <option value="Lada">Lada</option>
+            <option value="BMW">
+              BMW
+            </option>
+            <option value="Audi">
+              Audi
+            </option>
+            <option value="Lada">
+              Lada
+            </option>
           </select>
         </label>
         <label for="rate" class="input">
@@ -152,7 +159,7 @@
           >
         </label>
       </fieldset>
-      <fieldset class="form_part">
+      <fieldset class="formPart">
         <legend class="input">
           Additional info:
         </legend>
@@ -168,7 +175,8 @@
         </label>
         <label for="recommend" class="input">
           Would you recommend us?
-          <select name="recommend"
+          <select
+            name="recommend"
             id="recommend"
             size="1"
           >
@@ -185,5 +193,6 @@
         Submit
       </button>
     </form>
+    <script type="text/javascript" src="./main.js"></script>
   </body>
 </html>

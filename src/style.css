@@ -1,5 +1,5 @@
 /* styles go here */
-.form_part {
+.formPart {
   margin-bottom: 20px;
 }
 
@@ -16,7 +16,7 @@
   margin-bottom: 0;
 }
 
-.cats_radio {
+.catsRadio {
   display: inline-block;
   margin-bottom: 10px;
 }
