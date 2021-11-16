@@ -4,7 +4,6 @@
 }
 
 .input {
-  display: block;
   margin-bottom: 10px;
 }
 
@@ -17,6 +16,5 @@
 }
 
 .catsRadio {
-  display: inline-block;
   margin-bottom: 10px;
 }
