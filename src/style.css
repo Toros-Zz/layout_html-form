@@ -1,1 +1,22 @@
 /* styles go here */
+.form_part {
+  margin-bottom: 20px;
+}
+
+.input {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.input:first-of-type {
+  margin-top: 0;
+}
+
+.input:last-of-type {
+  margin-bottom: 0;
+}
+
+.cats_radio {
+  display: inline-block;
+  margin-bottom: 10px;
+}
